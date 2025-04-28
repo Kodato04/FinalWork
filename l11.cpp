@@ -13,9 +13,9 @@ struct Size {
 // Основная структура для одежды
 typedef struct Node {
     
-    char nom[10];
+    char xz[10];
     
-    char nazv[100];
+    char zx[100];
     
     struct Size size; // Вложенная структура
     
