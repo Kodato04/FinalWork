@@ -5,16 +5,22 @@
 #include <Windows.h>
 
 struct Size {
-    char minS[100];
+    char minS[100];//teper vse peremennie s more bolshe noviy stroki
+    
     char maxS[100];
 };
 
 // Основная структура для одежды
 typedef struct Node {
+    
     char nom[10];
+    
     char nazv[100];
+    
     struct Size size; // Вложенная структура
+    
     float stoit;
+    
     struct Node* next;
 } Node;
 
@@ -119,9 +125,13 @@ int main() {
 
     while (1) {
         char nom[10];
+        
         char nazv[100];
+        
         char minS[100];
+
         char maxS[100];
+        
         float stoit;
 
         printf("Введите номер одежды (или '*' для завершения ввода): ");
