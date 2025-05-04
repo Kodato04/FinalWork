@@ -15,12 +15,23 @@ typedef struct Node {
     
     char nom[10];
     
-    char nazv[100];
+
+
+    char nazv[100];//Название одежды
     
+
+
+
     struct Size size; // Вложенная структура
     
+
+
+
     float stoit;
     
+
+
+
     struct Node* next;
 } Node;
 
